@@ -1,0 +1,62 @@
+h1{
+    color: orange;
+    font-family: cursive;
+}
+#titulo{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/*clase negrilla*/
+.negrilla{
+    font-weight: bold;
+}
+#cabecera{
+    background-color: red;
+    width: 100vw;
+    height: 35vh;
+    overflow: hidden;
+}
+
+#cuerpo{
+
+}
+
+body{
+    margin:0px;
+
+}
+
+#conTexto{
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#conImagen{
+    background-color: green;
+    width: 50%;
+    height: 100%;
+    float: right;
+    
+}
+#conImagen img{
+    padding-left: 60px;
+}
+
+#tituloCabecera{
+    font: 4rem;
+}
+#subtitulo{
+    font: 2.5rem;
+    /*em,pt*/ 
+}
+
+table, tr,td,th{
+    border: 1px solid black;
+}
+table{
+    width: 50%; 
+}
