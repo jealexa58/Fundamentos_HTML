@@ -1,0 +1,44 @@
+header{
+    text-align:center;
+}
+
+table, tr,th,td{
+
+    border: 1px solid black;
+}
+
+table{
+    width: 80%;
+}
+
+#contenedor{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#contenedor1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#contenedor2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+#btnRegistro{
+    width: 6rem;
+    background-color: blue;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+#btnRegistro:hover{
+    color: chartreuse;
+}
