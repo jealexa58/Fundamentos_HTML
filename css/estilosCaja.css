@@ -1,0 +1,48 @@
+#s1 div{
+    border: 3px solid blue;
+    width: 300px;
+    display: inline-block;
+}
+
+/*
+#s1 div,#s2 div{
+    border: 3px solid blue;
+    width: 300px;
+    display: inline-block;
+}
+*/
+
+#s2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#s1 p{
+    margin: 0px;
+}
+#s3,#parrafo_1,#parrafo_2,#parrafo_3{
+    font-size: 1.2rem;
+}
+
+#parrafo_4{
+    font-family: cursive;
+    color: green;
+}
+#parrafo_4{
+    color: orange;
+}
+
+#s4{
+    text-align: center;
+}
+#s4 div{
+    background-color: green;
+    width: 100px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+#s4 div:hover{
+    color: orange;
+    background-color:grey
+}
